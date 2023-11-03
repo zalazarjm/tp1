@@ -18,9 +18,9 @@ const Home = ({ navigation }) => {
       <View style={styles.container}>
       <Button title="Login" onPress={() => navigateToScreen('Login')} />
       <Button title="Home" onPress={() => navigateToScreen('Home')} />
-      <Button title="Lists" onPress={() => navigateToScreen('Lists')} />
       <Button title="ListDetail" onPress={() => navigateToScreen('ListDetail')} />
       <Button title="Maps" onPress={() => navigateToScreen('Maps')} />
+      <Button title="ListaDePokemones" onPress={() => navigateToScreen('ListsScreen')} />
         {/* Agrega más botones para otras pantallas */}
       </View>
     </View>
